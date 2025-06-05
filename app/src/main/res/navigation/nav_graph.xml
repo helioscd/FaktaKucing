@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <action
+        android:id="@+id/action_breedFragment_to_breedDetailFragment"
+        app:destination="@id/breedDetailFragment" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.faktakucing.HomeFragment"
+        android:label="Beranda" />
+
+    <fragment
+        android:id="@+id/breedFragment"
+        android:name="com.example.faktakucing.BreedFragment"
+        android:label="Ras Kucing" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.faktakucing.AboutFragment"
+        android:label="Tentang" />
+
+    <fragment
+        android:id="@+id/breedDetailFragment"
+        android:name="com.example.faktakucing.BreedDetailFragment"
+        android:label="Detail Ras Kucing"
+        tools:layout="@layout/fragment_breed_detail">
+        <argument
+            android:name="breedName"
+            app:argType="string" />
+    </fragment>
+
+
+</navigation>

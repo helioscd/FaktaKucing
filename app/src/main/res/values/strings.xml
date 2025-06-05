@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FaktaKucing</string>
+    <string name="loading_cat_fact">Loading cat fact...</string>
+    <string name="fakta_baru">Fakta Baru</string>
+    <string name="memuat_fakta_kucing">Memuat fakta kucing...</string>
+    <string name="gambar_kucing">Gambar Kucing</string>
+    <string name="gambar_ras_kucing">Gambar Ras Kucing</string>
+</resources>
